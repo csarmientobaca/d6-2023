@@ -36,8 +36,10 @@ class BookList extends Component {
               ))}
           </Row>
         </Col>
+        {/* PART FOR THE COMMENTS */}
         <Col>
-          <h1>here go comments</h1>
+          <h1>here go comments of the clicke{ }</h1>
+          <h2>here go the asin of the clicked{ }</h2>
         </Col>
       </Row>
 

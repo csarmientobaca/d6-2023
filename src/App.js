@@ -10,12 +10,14 @@ import fantasy from './data/fantasy.json'
 
 function App() {
   return (
-    <Container>
+    <>
       <MyNav />
-      <MyJumbotron />
-      <BookList books={fantasy} />
-      <MyFooter />
-    </Container >
+      <Container>
+        <MyJumbotron />
+        <BookList books={fantasy} />
+        <MyFooter />
+      </Container >
+    </>
   )
 }
 
